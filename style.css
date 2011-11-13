@@ -1,0 +1,155 @@
+body 
+{
+    font-family: Verdana;
+}
+
+#footer 
+{
+    display: none;
+}
+
+.content {
+    margin-left: 90px;
+}
+
+.left *{
+    text-align: left !important;
+}
+
+pre.sh_sourceCode {
+    background: none !important;
+}
+
+.title {
+    position: absolute;
+    top: 120px;
+    left: 280px;
+}
+
+.title .content p, .title .content h1 {
+    text-align: left !important;
+    margin-left: 0px;
+}
+
+.hpidefault {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* z-index: -1; */
+    background-image: url(hpi_small.png);
+
+    background-repeat: no-repeat;
+    background-position: 98% 95%;
+
+}
+
+.hpitemplate {
+    background-image: url(hpi.png);
+    background-repeat: no-repeat;
+    background-position: 98% 0%;
+    background-size: 50%;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* z-index: -1; */
+}
+
+.redbarhor {
+    content: '\0000a0';
+    position: absolute;
+    top:320px;
+    left: 0px;
+    width: 220px;
+    height: 20px;
+    background: rgb(193, 26, 57);
+    z-index: 0;
+}
+
+.redbarvert {
+    content: '\0000a0';
+    position: absolute;
+    top:320px;
+    left: 220px;
+    width: 20px;
+    height: 500px;
+    background: rgb(193, 26, 57);
+    z-index: 0;
+}
+
+.yelbarhor {
+    content: '\0000a0';
+    position: absolute;
+    top:330px;
+    left: 230px;
+    width: 800px;
+    height: 10px;
+    background: rgba(255, 164, 76, 0.9);
+    z-index: 99;
+}
+
+.yelbarvert {
+    content: '\0000a0';
+    position: absolute;
+    top:0px;
+    left: 230px;
+    width: 10px;
+    height: 330px;
+    background: rgba(255, 164, 76, 0.9);
+    z-index: 99;
+}
+
+.lefter .pages {
+    position: absolute;
+    width: 70px;
+    top: 90px;
+    left: 5px;
+    color: #666;
+    font-family: Verdana;
+    font-size: 0.9em;
+}
+
+.lefter .redbarhor {
+    content: '\0000a0';
+    position: absolute;
+    top:50px;
+    left: 0px;
+    width: 60px;
+    height: 10px;
+    background: rgb(193, 26, 57);
+    z-index: 0;
+}
+
+.lefter .redbarvert {
+    content: '\0000a0';
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    width: 10px;
+    height: 800px;
+    background: rgb(193, 26, 57);
+    z-index: 0;
+}
+
+.lefter .yelbarhor {
+    content: '\0000a0';
+    position: absolute;
+    top:50px;
+    left: 60px;
+    width: 1000px;
+    height: 5px;
+    background: rgba(255, 164, 76, 0.9);
+    z-index: 99;
+}
+
+.lefter .yelbarvert {
+    content: '\0000a0';
+    position: absolute;
+    top:0px;
+    left: 60px;
+    width: 5px;
+    height: 50px;
+    background: rgba(255, 164, 76, 0.9);
+    z-index: 99;
+}
+

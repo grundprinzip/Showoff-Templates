@@ -1,0 +1,10 @@
+{ 
+    "name": "Showoff Templates",
+    "author" : "Martin Grund",
+    "templates" : {
+	"title" : "hpi.tpl",
+	"default" : "hpibase.tpl"
+    },
+    "page-size" : "Letter",
+    "sections": [ {"section":"one"} ]
+}
